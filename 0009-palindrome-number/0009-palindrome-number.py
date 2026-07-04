@@ -11,8 +11,4 @@ class Solution(object):
             while rev < x:
                 rev= rev*10+ x%10
                 x=x//10
-            if rev == x:
-                return True
-            else :
-                rev=rev//10
-                return True if rev==x else False
+            return rev == x or rev // 10 == x
