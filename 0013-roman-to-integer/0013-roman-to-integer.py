@@ -13,11 +13,19 @@ class Solution(object):
             "D": 500,
             "M": 1000
         }
-        integer=roman[s[-1]]
-        for i in range(len(s)-1,0,-1):
-            if  roman[s[i]] <=roman[s[i-1]]:    #right < left
-                integer += roman[s[i-1]]
-            else:
-                integer -= roman[s[i-1]]
-
-        return integer
+        total=0
+        for i in range(len(s)):
+            total += roman[s[i]]
+        subtract= {
+            "IV": 2,
+            "IX": 2,
+            "XL": 20,
+            "XC": 20,
+            "CD": 200,
+            "CM": 200
+        }
+        for i in range(len(s)-1):
+            che =s[i]+s[i+1]
+            if che in subtract:
+                total -= subtract[che]
+        return total
