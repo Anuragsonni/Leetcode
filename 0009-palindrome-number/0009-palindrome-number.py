@@ -14,12 +14,8 @@ class Solution(object):
         #     return rev == x or rev // 10 == x
         else :
             x=str(x)
-            sta=0
-            end=len(x)-1
-            while sta<end:
-                if x[sta] == x[end]:
-                    sta+=1
-                    end-=1
-                else:
-                    return False
-            return True
+            rev= x[::-1]
+            if x==rev:
+                return True
+            else:
+                return False
