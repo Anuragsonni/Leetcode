@@ -8,7 +8,11 @@ class Solution(object):
         ans=[]
         siz=len(nums)
         for i in range(siz-2):
+            if nums[i] > 0:
+                break
             if i>0 and nums[i]==nums[i-1]:
+                continue
+            if nums[i] + nums[siz - 1] + nums[siz - 2] < 0:
                 continue
             start=i+1
             end=siz-1
