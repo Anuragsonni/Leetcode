@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
+| [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 ## Math
 |  |
 | ------- |
@@ -26,9 +27,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
+| [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Anuragsonni/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Anuragsonni/Leetcode/tree/master/0015-3sum) |
+## Counting
+|  |
+| ------- |
+| [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 <!---LeetCode Topics End-->
