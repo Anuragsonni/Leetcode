@@ -4,10 +4,9 @@ class Solution(object):
         :type gain: List[int]
         :rtype: int
         """
-        height=[]
+        height=[0]
         heights=0
         for i in gain:
-            height.append(heights)
             heights += i
-        height.append(heights)
+            height.append(heights)
         return max(height)
