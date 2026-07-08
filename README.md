@@ -26,11 +26,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Anuragsonni/Leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Anuragsonni/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## String
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Anuragsonni/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Sorting
@@ -49,5 +51,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/2553-separate-the-digits-in-an-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
