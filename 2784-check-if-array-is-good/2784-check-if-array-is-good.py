@@ -5,12 +5,5 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        n=len(nums)-1
-        
-        count = Counter(nums)
-        if count[n] !=2:
-            return False
-        for i in range(1,n):
-            if count[i] != 1:
-                return False 
-        return True
+        nums.sort()
+        return nums== list(range(1,len(nums)))+ [len(nums)-1]
