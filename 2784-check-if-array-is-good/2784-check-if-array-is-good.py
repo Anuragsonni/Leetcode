@@ -1,19 +1,16 @@
+from collections import Counter
 class Solution(object):
     def isGood(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
         """
-        l=len(nums)
-        if max(nums)!= l-1:
+        n=len(nums)-1
+        
+        count = Counter(nums)
+        if count[n] !=2:
             return False
-        for i in range(1,l):
-            if i in nums:
-                pass 
-            else:
-                return False
-        nums.remove(l-1)
-        if l-1 in nums:
-            return True
-        else :
-            return False
+        for i in range(1,n):
+            if count[i] != 1:
+                return False 
+        return True
