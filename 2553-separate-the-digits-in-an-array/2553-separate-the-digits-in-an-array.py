@@ -11,5 +11,5 @@ class Solution(object):
                 temp.append(num%10)
                 num=num//10
             temp.reverse()
-            ans=ans+temp
+            ans.extend(temp)
         return ans
