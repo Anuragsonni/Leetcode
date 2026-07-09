@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Anuragsonni/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
 | [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
 | [2784-check-if-array-is-good](https://github.com/Anuragsonni/Leetcode/tree/master/2784-check-if-array-is-good) |
@@ -29,12 +30,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Anuragsonni/Leetcode/tree/master/0009-palindrome-number) |
+| [0012-integer-to-roman](https://github.com/Anuragsonni/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Anuragsonni/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Anuragsonni/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0022-generate-parentheses) |
