@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Anuragsonni/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Anuragsonni/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0053-maximum-subarray](https://github.com/Anuragsonni/Leetcode/tree/master/0053-maximum-subarray) |
 | [1732-find-the-highest-altitude](https://github.com/Anuragsonni/Leetcode/tree/master/1732-find-the-highest-altitude) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Anuragsonni/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/2553-separate-the-digits-in-an-array) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/Anuragsonni/Leetcode/tree/master/0053-maximum-subarray) |
 ## Backtracking
 |  |
 | ------- |
@@ -71,4 +73,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0020-valid-parentheses) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Anuragsonni/Leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
