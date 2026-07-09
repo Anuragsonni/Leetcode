@@ -11,8 +11,7 @@ class Solution(object):
             Height= min(height[i], height[j])
             Area= Height * (j-i)
 
-            if area< Area:
-                area= Area 
+            area= max(area, Area )
 
             if height[i] < height[j]:
                 i+=1
