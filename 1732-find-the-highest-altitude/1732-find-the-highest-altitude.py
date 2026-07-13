@@ -1,12 +1,9 @@
-class Solution(object):
-    def largestAltitude(self, gain):
-        """
-        :type gain: List[int]
-        :rtype: int
-        """
-        height=[0]
-        heights=0
+class Solution:
+    def largestAltitude(self, gain: List[int]) -> int:
+        height = 0
+        maxheight= height
         for i in gain:
-            heights += i
-            height.append(heights)
-        return max(height)
+            height+= i 
+            maxheight= max(height, maxheight)
+        
+        return maxheight
