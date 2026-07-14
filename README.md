@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Anuragsonni/Leetcode/tree/master/0013-roman-to-integer) |
 | [0217-contains-duplicate](https://github.com/Anuragsonni/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Anuragsonni/Leetcode/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/Anuragsonni/Leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Anuragsonni/Leetcode/tree/master/0383-ransom-note) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1189-maximum-number-of-balloons](https://github.com/Anuragsonni/Leetcode/tree/master/1189-maximum-number-of-balloons) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Anuragsonni/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Anuragsonni/Leetcode/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/Anuragsonni/Leetcode/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/Anuragsonni/Leetcode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Anuragsonni/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/Anuragsonni/Leetcode/tree/master/0383-ransom-note) |
