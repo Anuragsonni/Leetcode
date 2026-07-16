@@ -10,15 +10,18 @@ class Solution:
             if v in sd:
                 if sd[v] != t[i]:
                     return False
+
+            elif t[i] in used:
+                return False
             
                 
             sd[v] = t[i]
+            used.add(t[i])
         
-        for i in sd.values():
+        # for i in sd.values():
 
-            if i in used:
-                return False
+        #     if i in used:
+        #         return False
 
-            used.add(i)
 
         return True
