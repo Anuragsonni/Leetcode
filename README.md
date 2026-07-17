@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/Anuragsonni/Leetcode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/Anuragsonni/Leetcode/tree/master/0231-power-of-two) |
+| [1922-count-good-numbers](https://github.com/Anuragsonni/Leetcode/tree/master/1922-count-good-numbers) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Anuragsonni/Leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## String
 |  |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Anuragsonni/Leetcode/tree/master/0231-power-of-two) |
+| [1922-count-good-numbers](https://github.com/Anuragsonni/Leetcode/tree/master/1922-count-good-numbers) |
 ## String Matching
 |  |
 | ------- |
