@@ -6,7 +6,7 @@ class Solution:
             return word1
         result=""
         i, j = 0, 0
-        for index in range(len(word1+word2)):
+        for index in range(len(word1)+len(word2)):
             if i==len(word1):
                 return result + word2[j:]
             if j==len(word2):
