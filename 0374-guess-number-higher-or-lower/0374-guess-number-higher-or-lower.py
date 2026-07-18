@@ -10,12 +10,14 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         l, r = 0, n
         mid=n//2
-        while guess(mid)!=0:
-            if guess(mid) == 1 :
+        g= guess(mid)
+        while g:
+            if g == 1 :
                 l=mid+1
             else :
                 r=mid-1
             mid= (l+r)//2
+            g=guess(mid)
         
         return mid
             
