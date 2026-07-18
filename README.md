@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Anuragsonni/Leetcode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Anuragsonni/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Anuragsonni/Leetcode/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/Anuragsonni/Leetcode/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/Anuragsonni/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Anuragsonni/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Anuragsonni/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -169,5 +170,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Anuragsonni/Leetcode/tree/master/0035-search-insert-position) |
 | [0704-binary-search](https://github.com/Anuragsonni/Leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
