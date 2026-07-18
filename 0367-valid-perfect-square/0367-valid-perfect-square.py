@@ -1,8 +1,8 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
-        odd=True if num%2 else False
-        l= 0
-        r= (num+odd)//2
+        # odd=True if num%2 else False
+        l= 1
+        r= num
         while l<=r :
 
             mid = (l+r)//2
