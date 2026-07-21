@@ -1,7 +1,15 @@
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        g = 0
+        l, r = 1 , n
         n = 2*n
-        while g**2 +g < n:
-            g +=1
-        return g-1 if g**2 +g != n else g
+        while l<=r :
+            mid = (l+r)//2
+            t = mid**2 + mid
+            if t == n:
+                return mid
+            elif t > n:
+                r = mid - 1
+            else:
+                l = mid + 1 
+            
+        return r
