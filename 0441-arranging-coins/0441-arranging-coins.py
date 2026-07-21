@@ -1,9 +1,7 @@
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        guess = 0
+        g = 0
         n = 2*n
-        def ans(k):
-            return k**2 + k 
-        while ans(guess) < n:
-            guess +=1
-        return guess-1 if ans(guess) != n else guess
+        while g**2 +g < n:
+            g +=1
+        return g-1 if g**2 +g != n else g
