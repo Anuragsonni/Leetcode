@@ -20,13 +20,13 @@ class Solution:
             if s[idx] == '(':
                 # remove it
                 if leftr:
-                    backtrack(idx+1, curr.copy(), left, right, leftr-1, rightr)
+                    backtrack(idx+1, curr, left, right, leftr-1, rightr)
                 # take it
                 backtrack(idx+1, curr + ['('], left+1, right, leftr, rightr)
             elif s[idx] == ')':
                 # remove it
                 if rightr:
-                    backtrack(idx+1, curr.copy(), left, right, leftr, rightr-1)
+                    backtrack(idx+1, curr, left, right, leftr, rightr-1)
                 # take it
                 if left > right:
                     backtrack(idx+1, curr + [')'], left, right+1, leftr, rightr)
