@@ -1,20 +1,18 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        mapping = {")": "(", "}": "{", "]": "["}
+class Solution:
+    def isValid(self, s: str) -> bool:
+        bracket = {
+            ')' : '(',
+            ']' : '[', 
+            '}' : '{'
+        }
         stack = []
-
-        for char in s:
-            if char in mapping:
+        for i in s :
+            if i in bracket :
                 top=stack.pop() if stack else '#'
-                if mapping[char]!=top:
+                if bracket[i] != top:
                     return False
+            
+            else:
+                stack.append(i)
 
-
-            else :
-                stack.append(char)
-
-        return not stack
+        return True if not stack else False
