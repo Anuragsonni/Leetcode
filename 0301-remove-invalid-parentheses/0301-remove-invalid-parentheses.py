@@ -1,7 +1,6 @@
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
         result = set()
-        stack = []
         leftr, rightr = 0, 0
         for i in s :
             if i == '(':
