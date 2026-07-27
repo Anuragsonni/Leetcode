@@ -10,26 +10,15 @@ class Solution(object):
         :type val: int
         :rtype: Optional[ListNode]
         """
-        if not head:
-            return head
+        dummy = ListNode()
+        dummy.next = head
 
-        if head.val == val:
-            head = head.next
-            head = self.removeElements(head, val)
+        curr = dummy
 
-        tail = head 
-        pre = tail
-        while tail :
-            pre = tail
-            tail = tail.next 
-            if tail and tail.val == val:
-                break
-        
+        while curr.next:
+            if curr.next.val == val:
+                curr.next = curr.next.next
+            else:
+                curr = curr.next
 
-        if tail:
-            pre.next = tail.next
-            head = self.removeElements(head, val)
-        
-        return head
-
-
+        return dummy.next
