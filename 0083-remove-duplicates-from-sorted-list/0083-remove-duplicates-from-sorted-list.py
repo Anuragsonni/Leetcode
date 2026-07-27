@@ -9,15 +9,25 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        seen = set()
         dummy = ListNode()
         dummy.next = head
         tail = dummy 
-        while tail.next:
-            if tail.next.val in seen :
+        while tail.next and tail.next.next:
+            if tail.next.val == tail.next.next.val:
                 tail.next = tail.next.next
             else:
-                seen.add(tail.next.val)
                 tail = tail.next
             
-        return head
+        return dummy.next
+        # seen = set()
+        # dummy = ListNode()
+        # dummy.next = head
+        # tail = dummy 
+        # while tail.next:
+        #     if tail.next.val in seen :
+        #         tail.next = tail.next.next
+        #     else:
+        #         seen.add(tail.next.val)
+        #         tail = tail.next
+            
+        # return head
