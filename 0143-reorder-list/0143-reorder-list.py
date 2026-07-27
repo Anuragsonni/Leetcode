@@ -33,7 +33,7 @@ class Solution(object):
         count = 1 
         tail = head 
         
-        while tail and pre :
+        while pre :
             mid = pre
             pre = pre.next 
             mid.next = tail.next
