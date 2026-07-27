@@ -23,17 +23,31 @@ class Solution:
         
         rev.reverse()
         i = j = 0
+        tail = head
+        count = 1
 
-        for k in range (l):
-            if k%2 :
-                ans.append(rev[j])
-                j+=1
-
+        while tail:
+            if count%2:
+                tail.val = lis[i]
+                i += 1
             else:
-                ans.append(lis[i])
-                i+=1
+                tail.val = rev[j]
+                j += 1
+            
+            tail = tail.next
+            count += 1
+
+
+        # for k in range (l):
+        #     if k%2 :
+        #         ans.append(rev[j])
+        #         j+=1
+
+        #     else:
+        #         ans.append(lis[i])
+        #         i+=1
         
-        tail= head
-        for i in ans:
-            tail.val = i
-            tail= tail.next
+        # tail= head
+        # for i in ans:
+        #     tail.val = i
+        #     tail= tail.next
