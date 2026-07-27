@@ -1,53 +1,41 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class ListNode(object):
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def reorderList(self, head: Optional[ListNode]) -> None:
+class Solution(object):
+    def reorderList(self, head):
         """
-        Do not return anything, modify head in-place instead.
+        :type head: Optional[ListNode]
+        :rtype: None Do not return anything, modify head in-place instead.
         """
-        lis = []
-        tail= head
-        while tail:
-            lis.append(tail.val)
-            tail = tail.next
+        if not (head and head.next):
+            return
         
-        l= len(lis)
-        ans=[]
-        if l%2:
-            rev = lis[l//2 +1 : ]
-        else:
-            rev = lis[l//2 : ]
+        fast = head.next
+        slow = head
+
+        while fast and fast.next :
+            fast = fast.next.next
+            slow = slow.next
         
-        rev.reverse()
-        i = j = 0
-        tail = head
-        count = 1
+        second = slow.next
+        slow.next = None
 
-        while tail:
-            if count%2:
-                tail.val = lis[i]
-                i += 1
-            else:
-                tail.val = rev[j]
-                j += 1
-            
-            tail = tail.next
-            count += 1
+        curr = second
+        pre = None
+        while curr:
+            nxt = curr.next
+            curr.next = pre
+            pre = curr
+            curr = nxt
 
-
-        # for k in range (l):
-        #     if k%2 :
-        #         ans.append(rev[j])
-        #         j+=1
-
-        #     else:
-        #         ans.append(lis[i])
-        #         i+=1
+        count = 1 
+        tail = head 
         
-        # tail= head
-        # for i in ans:
-        #     tail.val = i
-        #     tail= tail.next
+        while tail and pre :
+            mid = pre
+            pre = pre.next 
+            mid.next = tail.next
+            tail.next = mid 
+            tail = tail.next.next
