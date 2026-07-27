@@ -14,6 +14,17 @@ class Solution:
             pre = curr
         
         return curr
+
+        # if not head: return None
+
+        # newHead = head 
+        # if head.next :
+        #     newHead = self.reverseList(head.next)
+        #     head.next.next = head
+        # head.next = None
+        # return newHead
+
+
         # if not head: 
         #     return head
         # temp_head = ListNode()
