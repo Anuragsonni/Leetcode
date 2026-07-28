@@ -12,12 +12,20 @@ class Solution(object):
         """
         dummy = ListNode()
         dummy.next = node
-        tail = dummy
-        while tail.next.next :
-            tail.val = tail.next.val
-            tail = tail.next 
-        tail.val = tail.next.val
-        tail.next = None
+        pre = dummy
+        while node.next:
+            node.val = node.next.val
+            node = node.next
+            pre = pre.next
+        pre.next = None
+        # dummy = ListNode()
+        # dummy.next = node
+        # tail = dummy
+        # while tail.next.next :
+        #     tail.val = tail.next.val
+        #     tail = tail.next 
+        # tail.val = tail.next.val
+        # tail.next = None
         
         # dummy = ListNode(0)
         # dummy.next = head
