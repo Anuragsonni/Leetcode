@@ -10,14 +10,8 @@ class Solution(object):
         :type node: ListNode
         :rtype: void Do not return anything, modify node in-place instead.
         """
-        dummy = ListNode()
-        dummy.next = node
-        pre = dummy
-        while node.next:
-            node.val = node.next.val
-            node = node.next
-            pre = pre.next
-        pre.next = None
+        node.val=node.next.val
+        node.next = node.next.next
         # dummy = ListNode()
         # dummy.next = node
         # tail = dummy
