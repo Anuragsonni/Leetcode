@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Anuragsonni/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Anuragsonni/Leetcode/tree/master/0674-longest-continuous-increasing-subsequence) |
+| [0682-baseball-game](https://github.com/Anuragsonni/Leetcode/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/Anuragsonni/Leetcode/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Anuragsonni/Leetcode/tree/master/0724-find-pivot-index) |
 | [0977-squares-of-a-sorted-array](https://github.com/Anuragsonni/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Anuragsonni/Leetcode/tree/master/0067-add-binary) |
+| [0682-baseball-game](https://github.com/Anuragsonni/Leetcode/tree/master/0682-baseball-game) |
 | [2553-separate-the-digits-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/2553-separate-the-digits-in-an-array) |
 ## Bit Manipulation
 |  |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/Anuragsonni/Leetcode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Anuragsonni/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0682-baseball-game](https://github.com/Anuragsonni/Leetcode/tree/master/0682-baseball-game) |
 ## Divide and Conquer
 |  |
 | ------- |
