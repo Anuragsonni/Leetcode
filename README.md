@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Anuragsonni/Leetcode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/Anuragsonni/Leetcode/tree/master/0143-reorder-list) |
+| [0232-implement-queue-using-stacks](https://github.com/Anuragsonni/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Anuragsonni/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/Anuragsonni/Leetcode/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/Anuragsonni/Leetcode/tree/master/0844-backspace-string-compare) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Anuragsonni/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anuragsonni/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 ## Binary Search
 |  |
@@ -235,4 +237,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Anuragsonni/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Anuragsonni/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Anuragsonni/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+## Design
+|  |
+| ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Anuragsonni/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 <!---LeetCode Topics End-->
