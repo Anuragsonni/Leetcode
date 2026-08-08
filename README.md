@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Anuragsonni/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Anuragsonni/Leetcode/tree/master/0162-find-peak-element) |
 | [0217-contains-duplicate](https://github.com/Anuragsonni/Leetcode/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Anuragsonni/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Anuragsonni/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/Anuragsonni/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Anuragsonni/Leetcode/tree/master/0674-longest-continuous-increasing-subsequence) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Anuragsonni/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0205-isomorphic-strings](https://github.com/Anuragsonni/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/Anuragsonni/Leetcode/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/Anuragsonni/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Anuragsonni/Leetcode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/Anuragsonni/Leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/Anuragsonni/Leetcode/tree/master/0383-ransom-note) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Anuragsonni/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0219-contains-duplicate-ii](https://github.com/Anuragsonni/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Anuragsonni/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Anuragsonni/Leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Queue
